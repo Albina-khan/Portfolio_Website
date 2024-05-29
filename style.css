@@ -197,6 +197,14 @@ body{
 .edu-para{
     color: white;
 }
+.edupara{
+    color: white;
+    line-height: 10px;
+    
+}
+.software_skill{
+    margin-bottom: 7px;
+}
 .education{
     margin-top:5%;
     display: block;
@@ -206,7 +214,6 @@ color: #9fc4ff;
 font-size: 14px;
 }
 .edu-skill{
-    /* font-family: myfont; */
     color: #9fc4ff;
     font-size: 17px;
 
@@ -370,4 +377,8 @@ pointer-events: none;
   }
   .social_logos img{
     margin: 30px 10px 30px 0px ;
+}
+.social_logos a{
+    
+    text-decoration: none;
   }
