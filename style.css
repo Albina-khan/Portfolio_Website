@@ -1,0 +1,373 @@
+body{
+    background-color: var(--background-);
+}
+@font-face{
+    font-family: myfont;
+    src: url(avantgarde-bk-bt-2/AVGARDD_2.TTF);
+}
+:root{
+    --background- : #222831;
+    --white_heading : #ffffff;
+    --black_heading : #0000;
+}
+.top{
+    margin-top: 14vh;
+
+}
+#background_avatar{
+    position: relative;
+}
+.intro_para{
+    margin-top: 20vh;
+
+}
+.heading_para{
+    color: var(--white_heading);
+    font-size: 18px;
+}
+#background_avatar::before{
+    position: absolute;
+    content: "";
+    background-color: #31363F;
+    z-index: -1;
+    width: 70%;
+    height: 45%;
+    border-radius: 50%;
+    left: 9%;
+    top: 20%;
+}
+.name{
+    color: var(--white_heading);
+    font-size: 70px;
+    font-weight: 600;
+    font-family:myfont ;
+
+}
+.dot{
+    color: #9fc4ff; 
+}
+.contactbtn{
+
+    background: transparent;
+    border: 2px solid #9fc4ff;
+    color: #cadeff;
+    padding: 5px 15px;
+    font-size: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+}
+.contactbtn:hover{
+    color: var(--white_heading);
+    background-color: #4889f1;
+    border: 2px solid #4889f1;
+ }
+
+#projectbtn{
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    color: #cadeff;
+    margin-left: 30px;
+}
+.navbar{
+    background-color: #222831;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.navbar ul{
+    margin-left: 65%;
+}
+.navbar-brand{
+    font-family: myfont;
+}
+.nav-link{
+    color: var(--white_heading);
+}
+
+.icons{
+    margin: 50px -19px;
+}
+.icon{
+    padding-left: 20px;
+    
+}
+.top-link{
+    color: var(--white_heading);
+}
+.links{
+    position: relative;
+    margin-top: 45px;
+}
+.links::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #9fc4ff;
+    top: -12px ;
+}
+.intro{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #9fc4ff;
+    font-family: myfont;
+}
+.head{
+    margin-bottom: 30px;
+    color: var(--white_heading);
+    font-family: myfont;
+}
+#top_section{
+    display: grid;
+    padding: 50px;
+}
+#About{
+    display: grid;
+    background-color: #31363F;
+    padding-block: 50px;
+    
+}
+#Education{
+    background-color: #31363F; 
+    padding: 50px;
+}
+#Contact{
+    padding-block:50px ;
+}
+.about_text{
+    align-items: center;
+    text-align: center;
+}
+.about_para{
+    color: var(--white_heading);
+}
+.about_box{
+    margin-top: 7%;
+}
+.box{
+    text-align: center;
+    background-color: var(--background-);
+    height: 240px;
+    width: 240px;
+    padding-block: 40px;
+}
+.boxtxt{
+    color: var(--white_heading);
+    margin-top: 10px;
+    font-size: 22px;
+}
+.boxtxt2{
+    color: rgb(216, 216, 216);
+    font-size: 14px;
+    padding: 10px 20px;
+}
+#Projects{
+    padding-block: 80px;
+}
+.project_boxtxt{
+    color: #ebebeb;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.pro_box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px;
+    background-color: #31363F;
+    
+}
+.p_boxtxt{
+    text-decoration: none;
+    color: #dbdbdb;
+    font-size: 14px;
+    transition: all ease-in-out 0.2s;
+}
+.p_boxtxt:hover{
+    color: var(--white_heading);
+}
+.prodetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edu-para{
+    color: white;
+}
+.education{
+    margin-top:5%;
+    display: block;
+}
+.education label{
+color: #9fc4ff;
+font-size: 14px;
+}
+.edu-skill{
+    /* font-family: myfont; */
+    color: #9fc4ff;
+    font-size: 17px;
+
+}
+.education ul li{
+    color: white;
+}
+.cv{
+    background-color: transparent;
+    border: none;
+    color: #9fc4ff;
+}
+.cvimg{
+    height: 18px;
+}
+.edu-para{
+    font-size: 15px;
+}
+.skill label{
+    color: white;
+}
+.prog-bar{
+    margin-bottom: 20px;
+}
+#skills{
+    margin-top: 5%;
+    display: none;
+}
+.edu-img img{
+    height: 300px;
+}
+.contpara{
+    color: #afadad;
+}
+#Contact .cont-label{
+ color: white;
+}
+
+.cnthead{
+    text-align: center;
+    color: white;
+}
+.cnt_text{
+    margin-top: 15%;
+}
+.top-link a{
+    text-decoration: none;
+    color: white;
+    transition: all ease-in-out .4s;
+}
+.top-link a:hover{
+    color: #d4d4d4;
+    
+}
+
+/*  */
+
+.inpt {
+    padding: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+}
+.input input {
+    border-bottom: 1px solid #bababa;
+    color: white;
+    padding: 15px 120px;
+    width: 100%;
+    outline: none;
+  }
+
+  .input select {
+    padding: 15px 120px;
+    border: none;
+    border-radius: 10px;
+    color: #666666;
+  }
+  .input select:focus{
+    border: transparent;
+
+  }
+  .input-M input {
+    padding: 50px 120px;
+    border: transparent;
+    border-radius: 10px;
+    outline: none;
+  }
+ 
+  #sub {
+    color: #bababa;
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.5s;
+  }
+  #sub:hover {
+    color: white;
+  }
+  .label_check {
+  position: relative;
+  isolation: isolate;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.label_check label {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  color: grey;
+padding: 4px 8px;
+transition: all 0.3s;
+border: none;
+pointer-events: none;
+}
+.label_check input {
+  padding-inline: 20px;
+}
+.input.label_check:focus-within label{
+  color: white !important;
+  font-size: 12px;
+  transform: translate(10px,-28px);
+    border: none;
+}
+.label_animate{
+    transform: translate(10px,-28px);
+}
+.contact{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.hidden{
+    display: none;
+}
+.progress-bar{
+    transition: width 2s ease-in-out;
+}
+#view:hover{
+    color: white;
+    transition: all .5s ease-in-out ;
+}
+
+.video {
+    width: auto;
+    height: 250px;
+    padding-left: 20px;
+  }
+  .detail-top {
+    margin-top: 6%;
+    color: white;
+    display: flex;
+  }
+  .pro_head {
+    text-align: center;
+    color: white;
+    font-family: myfont;
+    margin-top: 12%;
+  }
+  .social_logos img{
+    margin: 30px 10px 30px 0px ;
+  }

@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px ) {
+    #background_avatar img{
+        height: 220px;
+        margin-top: 40%;
+        
+    }
+    .name {
+        font-size: 27px;
+    }
+    .navbar ul{
+        margin-left: 0%;
+    }
+    .top-link{
+        font-size: 14px;
+    }
+    .head{
+        font-size: 18px;
+        margin-bottom: 10px ;
+    }
+
+    #top_section{
+        padding: 0%;
+    }
+    .contactbtn{
+        padding: 4px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    #top_section #col1{
+        width: 50%;
+    }
+    .intro{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .intro_para{
+        margin: 10% 0% ;
+    }
+    .heading_para{
+        font-size: 14px;
+    }
+    .about_para{
+        font-size: 14px;
+    }
+    .box{
+        height: 180px;
+        width: 290px;
+        padding-block: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .edu-img img{
+        height: 200px;
+    }
+    .boxtxt{
+        font-size: 16px;
+    }
+    .boxtxt2{
+        font-size: 14px;
+    }
+    .box img{
+        height: 30px;
+    }
+    #About{
+        display: flex;
+    }
+    #About .row .col-md-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cv{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .cvimg{
+        height: 14px;
+    }
+    .edu-para{
+        font-size: 14px;
+    }
+    .education{
+        margin-top:10%;
+    }
+    .detail-top {
+     flex-direction: column;   
+    }
+    .video{
+        padding-left: 0%;
+        height: 170px;
+    }
+}
