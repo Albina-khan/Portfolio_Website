@@ -79,6 +79,9 @@
     .edu-para{
         font-size: 14px;
     }
+    .edupara{
+        font-size: 14px;
+    }
     .education{
         margin-top:10%;
     }
@@ -88,5 +91,8 @@
     .video{
         padding-left: 0%;
         height: 170px;
+    }
+    .pro_head{
+        margin-top: 15%;
     }
 }
