@@ -39,7 +39,7 @@
     height: 120px;
     z-index: -99;
     font-size: 12px;
-    margin-right: auto;
+    margin-left: 200px;
   }
 
   .circular-text span {
