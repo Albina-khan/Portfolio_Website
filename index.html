@@ -96,6 +96,12 @@
                                 <div class="sm-circle"></div>
                                 <div class="sm-circle-top"></div>
                             </div>
+                            <div class="animated-circle"> 
+                                <div class="circular-text">
+                                    website - development.
+                                </div>
+                            </div>
+
                             <div class="intro_para">
                                 <h2 class="intro">INTRODUCTION</h2>
                                 <h2 class="head">Web Designer, Full Stack Web Developer </h2>
@@ -561,7 +567,16 @@ skillbtn.addEventListener('click' , (event)=>{
                                     });
 });
 </script>
+<script>
+    var circular = document.querySelector('.circular-text');
+    circular.innerHTML = circular.textContent.replace(/\S/g , "<span>$&</span>")
+    const ele = document.querySelectorAll(".circular-text span")
+    for (let i = 1; i < ele.length; i++) {
+        ele[i].style.transform="rotate("+ i*17.5 +"deg)";
+        
+    }
 
+</script>
 
     <script>
         function sendmail(){
@@ -590,6 +605,23 @@ var body = "Name : "+ name + "<br>"
 name.innerText = "";
         }
     </script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    let boxes = document.querySelectorAll('.box');
 
+    let observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible'); // Add visible class when box is in viewport
+            }
+        });
+    });
+
+    boxes.forEach(box => {
+        observer.observe(box); // Observe each box
+    });
+});
+
+</script>
 </body>
 </html>
